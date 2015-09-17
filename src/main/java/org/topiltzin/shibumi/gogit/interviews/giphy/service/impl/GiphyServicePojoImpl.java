@@ -9,6 +9,7 @@ import java.net.URLConnection;
 import java.net.URLEncoder;
 import java.util.List;
 
+import org.springframework.context.annotation.Scope;
 import org.topiltzin.shibumi.gogit.interviews.giphy.dto.SearchTerm;
 import org.topiltzin.shibumi.gogit.interviews.giphy.exception.GiphyException;
 import org.topiltzin.shibumi.gogit.interviews.giphy.service.GiphyService;

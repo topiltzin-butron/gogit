@@ -4,6 +4,8 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	   					   http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-	<bean id="giphyService" class="org.topiltzin.shibumi.gogit.interviews.giphy.service.impl.GiphyServicePojoImpl" />
+	<bean id="giphyService"
+		class="org.topiltzin.shibumi.gogit.interviews.giphy.service.impl.GiphyServicePojoImpl"
+		scope="prototype" />
 
 </beans>
